@@ -18,3 +18,6 @@ Compose page with text
 
 Post with particular title (Dynamic website)
 ![image](https://user-images.githubusercontent.com/91027090/190870567-95202d8e-bb6f-46a3-b67e-23be14e83038.png)
+
+In navigation bar compose is add which directly take you to compose page
+![image](https://user-images.githubusercontent.com/91027090/190870752-fc65e90a-04cd-4136-8ac4-1d7ee16cb935.png)
