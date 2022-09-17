@@ -1,0 +1,30 @@
+<!-- Here include is used to add Header  -->
+<!-- and i include path as partials/filename -->    
+<%- include('partials/header') %> 
+
+<h1>Home</h1>
+
+<p> <%= startingContent %> </p>
+
+<!-- comment -->
+<!-- <% for(var i=0; i<posts.length; i++){ %>
+    <% console.log(posts[i].title); %> 
+    <% console.log(posts[i].details); %> 
+    <h1> <%= posts[i].title %> </h1>
+    <p> <%= posts[i].details %> </p>
+<% } %>  -->
+<!-- comment -->
+
+
+<% posts.forEach(function (post){ %>
+    <% console.log(post.title); %>
+    <h1> <%= post.title %> </h1> 
+    <p> <%= post.details.substring(0,100) + " ..." %> 
+    <a href="/posts/<%= post.title %>">Read More</a>
+    </p>
+ <% }); %> 
+
+
+<!-- Here include is used to add footer  -->
+<!-- and i include path as partials/filename -->
+<%- include('partials/footer'); %> 
